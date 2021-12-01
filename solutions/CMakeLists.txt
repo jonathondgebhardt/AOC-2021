@@ -10,6 +10,8 @@ set(${AOC_SOURCE}
   PARENT_SCOPE
 )
 
+add_subdirectory(day01)
+
 # Now that we've visited subdirectories, echo the AOC variables back up to the parent scope.
 set(${AOC_SOURCE_H}
   AOC_SOURCE_H
